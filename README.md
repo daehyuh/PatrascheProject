@@ -1,9 +1,8 @@
 # Patrasche-Project
 ### Patrasche-Project 
-//(주)비타소프트
 
 > # 파트라슈 프로젝트 Zed2 카메라, YDLidar 데이터수집 센서 개발
-> > ### 담당자 강대현
+> > ### 담당자 강대현 (주)비타소프트
 # main.py   
 ## Zed2 카메라 센서와 YDLidar으로 Left, Right, Depth  거리, 기울기, Lidar 데이터를 저장하는 코드입니다   
 ### 저장 / 저장종료 : SpaceBar
