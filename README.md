@@ -1,8 +1,8 @@
-# Patrasche-Project
+# 과학기술정보통신부 정보통신산업진흥원 2020년 AI 바우처 지원사업 파트라슈
 ### Patrasche-Project 
 
-> # 파트라슈 프로젝트 Zed2 카메라, YDLidar 데이터수집 센서 개발
-> > ### 담당자 강대현 (주)비타소프트
+> # Zed2 카메라, YDLidar 데이터수집 프로그램
+> > ### 담당자 강대현
 # main.py   
 ## Zed2 카메라 센서와 YDLidar으로 Left, Right, Depth  거리, 기울기, Lidar 데이터를 저장하는 코드입니다   
 ### 저장 / 저장종료 : SpaceBar
