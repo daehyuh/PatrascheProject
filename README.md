@@ -55,13 +55,13 @@ sudo reboot
 nvidia-smi
 ```
 # 설치중 의존성 오류가 뜰경우
-[링크]([https://nirsa.tistory.com/330))
+[링크](https://nirsa.tistory.com/330)
 
 # Cuda 11.2
 https://settembre.tistory.com/449?category=948659
 
 # ZED SDK 11.5
-[링크]([https://skylit.tistory.com/163](https://www.stereolabs.com/docs/installation/linux/))
+[링크](https://www.stereolabs.com/docs/installation/linux/)
 
 # YDLidar
 ```
