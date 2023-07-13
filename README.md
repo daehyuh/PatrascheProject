@@ -1,13 +1,9 @@
-# 과학기술정보통신부 정보통신산업진흥원 2020년 AI 바우처 지원사업
-# 파트라슈 프로젝트
+## 과학기술정보통신부 정보통신산업진흥원 2020년 AI 바우처 지원사업
 ### Patrasche-Project 
+Zed2 카메라, YDLidar 학습 데이터수집 코드
+- 담당자 강대현  
 
-> # Zed2 카메라, YDLidar 데이터수집 프로그램
-> > ### 담당자 강대현
-# main.py   
-## Zed2 카메라 센서와 YDLidar으로 Left, Right, Depth  거리, 기울기, Lidar 데이터를 저장하는 코드입니다   
-### 저장 / 저장종료 : SpaceBar
-### 프로그램 종료 : ESC   
+* Zed2 카메라 센서와 YDLidar으로 Left, Right, Depth  거리, 기울기, Lidar 데이터를 저장하는 코드*  
 ```python
 > # 저장경로
 >> Left : left_{str(count).zfill(4)}.jpg # Zed 센서로 Left이미지를 저장합니다
@@ -58,17 +54,17 @@ sudo reboot
 #확인
 nvidia-smi
 ```
-설치중 의존성 오류가 뜰경우
-https://nirsa.tistory.com/330
+# 설치중 의존성 오류가 뜰경우
+[링크]([https://nirsa.tistory.com/330))
 
 # Cuda 11.2
 https://settembre.tistory.com/449?category=948659
 
 # ZED SDK 11.5
-https://www.stereolabs.com/docs/installation/linux/
-
+[링크]([https://skylit.tistory.com/163](https://www.stereolabs.com/docs/installation/linux/))
 
 # YDLidar
+```
 sudo apt install git
 sudo apt install cmake pkg-config
 
@@ -76,25 +72,27 @@ sudo apt-get install swig
 sudo apt-get install python swig
 sudo apt install python-pip
 sudo apt-get install python-pip
-
+```
 # Cmake 의존 라이브러리 설치 (make , gcc, gcc-c++ openssl, openssl-devel)
+```
 sudo apt-get update
 sudo apt-get install make
 sudo apt-get install gcc 
 sudo apt-get install g++
 sudo apt-get install libssl-dev openssl
 sudo apt-get install libssl-dev
-
-
+```
 # Cmake 설치
+```
 sudo wget https://cmake.org/files/v3.15/cmake-3.15.2.tar.gz
 sudo tar xvfz cmake-3.15.2.tar.gz
 cd cmake-3.15.2
 sudo ./bootstrap
 sudo make
 sudo make install
-
+```
 # YDLidar-SDK설치
+```
 sudo git clone https://github.com/YDLIDAR/YDLidar-SDK.git
 sudo mkdir YDLidar-SDK/build
 cd YDLidar-SDK/build
@@ -106,8 +104,8 @@ cd YDLidar-SDK
 sudo pip3 install .
 sudo python3 setup.py build
 sudo python3 setup.py install
-
+```
 # dev/ttyUSB0 과 프로젝트 전부에게 권한을 부여해야한다
 
 # sh 더블클릭 실행 하는법
-https://skylit.tistory.com/163
+[링크](https://skylit.tistory.com/163)
