@@ -1,27 +1,6 @@
-## 과학기술정보통신부 정보통신산업진흥원 2020년 AI 바우처 지원사업
-### Patrasche-Project 
+# 과학기술정보통신부 정보통신산업진흥원 2020년 AI 바우처 지원사업
+## Patrasche-Project 
 Traffic Object Detection, Drivable Area Segmentation, Lane Detection을 위한 멀티모달 학습 데이터 구축
-
-
-# Left, Right, Depth   
-jpg 형식으로 저장되어 있습니다.      
-프레임별로 카운트하여 zfill(4)으로 Left_0000.jpg 형식으로 저장됩니다
-
-# Distance   
-npy 형식으로 저장되어 있습니다.  
-프레임별로 카운트하여 zfill(4)으로 distance_0000.jpg 형식으로 저장됩니다   
-넘파이어레이 2차원리스트로 저장되어 있으며 0 ~ 255의 정규화 되어있습니다.
-
-# Slope   
-npy 형식으로 저장되어 있습니다.  
-프레임별로 카운트하여 zfill(4)으로 slope_0000.jpg 형식으로 저장됩니다   
-넘파이어레이 1차원리스트로 저장되어 있으며 [가로축, 세로축, 높이 ,대각선] 입니다
-
-# degree   
-csv 형식으로 저장되어 있습니다. 
-프레임별로 카운트하여 zfill(4)으로 degree_0000.csv 형식으로 저장됩니다   
-csv로 저장되어 있으며 한줄마다 "각도, 거리, 강도" 입니다.
-
 
 
 # Ubuntu 18.04 환경설정 , GTX1650버전   
