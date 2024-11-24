@@ -1,18 +1,8 @@
 ## 과학기술정보통신부 정보통신산업진흥원 2020년 AI 바우처 지원사업
 ### Patrasche-Project 
-Zed2 카메라, YDLidar 학습 데이터수집 코드
-- 담당자 강대현  
+Traffic Object Detection, Drivable Area Segmentation, Lane Detection을 위한 멀티모달 학습 데이터 구축
 
-* Zed2 카메라 센서와 YDLidar으로 Left, Right, Depth  거리, 기울기, Lidar 데이터를 저장하는 코드*  
-```python
-> # 저장경로
->> Left : left_{str(count).zfill(4)}.jpg # Zed 센서로 Left이미지를 저장합니다
->> Right : right_{str(count).zfill(4)}.jpg # Zed 센서로 Right이미지를 저장합니다
->> Depth : depth_{str(count).zfill(4)}.jpg # Zed 센서로 Depth이미지를 저장힙니다
->> Distance : distance_{str(count).zfill(4)}.npy # Zed 센서로 Distance 거리 데이터를 저장합니다 (정규화 되어있는 데이터)
->> Slope : slope_{str(count).zfill(4)}.npy # Zed 센서로 기울기를 저장합니다
->> degree : degree_{str(count).zfill(4)}.csv # Lidar 센서로 라이더 데이터를 저장합니다 (360도 전부 저장)
-```
+
 # Left, Right, Depth   
 jpg 형식으로 저장되어 있습니다.      
 프레임별로 카운트하여 zfill(4)으로 Left_0000.jpg 형식으로 저장됩니다
