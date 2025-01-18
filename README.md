@@ -1,4 +1,5 @@
-# 과학기술정보통신부 정보통신산업진흥원 2020년 AI 바우처 지원사업
+# 과학기술정보통신부 정보통신산업진흥원 AI 바우처 지원사업
+## 데이터 수집 및 전처리, 라벨링 작업
 ## Patrasche-Project 
 Traffic Object Detection, Drivable Area Segmentation, Lane Detection을 위한 멀티모달 학습 데이터 구축
 
